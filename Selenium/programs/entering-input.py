@@ -6,7 +6,7 @@ import time
 from selenium.webdriver.common.keys import Keys
 
 #setting up service and driver
-s=Service("D:/Coding stuffs/WebScrapping/Selenium/driver/chromedriver-win64/chromedriver.exe")
+s=Service("D:/driver/chromedriver-win64/chromedriver.exe")
 driver=webdriver.Chrome(service=s)
 
 #initiating automation
